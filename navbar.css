@@ -1,0 +1,92 @@
+
+.navBar {
+  overflow: hidden;
+  background-color: #171731;
+}
+
+
+.navBar a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.navBar button {
+    float: left;
+    display: block;
+    background-color: #171731;
+    border-color: #171731;
+    color: rgb(223, 203, 203);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navBar select {
+    float: left;
+    display: block;
+    color: white;
+    background-color: #171731;
+    border-color: #171731;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.navBar .search-container {
+  float: right;
+}
+
+.navBar .menu a{
+    display: none;
+}
+
+
+.navBar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border-radius: 3px 3px 3px 3px;l
+}
+
+
+.navBar .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #171731;
+  border-color: green;
+  color: green;
+  font-size: 17px;a
+  border-width: 1px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.navBar .search-container button:hover {
+    background-color: green;
+    color: white;
+  }
+
+@media screen and (max-width: 768px) {
+    .navBar a, .navBar .search-container, .navBar button , .navBar select { 
+  
+      display: none;
+  
+    }
+    .navBar .menu a{
+        display: block;
+    }
+
+    #NavBar {
+        display: block;
+    }
+
+  }
