@@ -1,0 +1,26 @@
+aside {
+  width: 200px;
+}
+.link {
+  color: #2b2b2b;
+  transition: color 0.3s;
+}
+.link:hover {
+  color: #2b2bb2;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.flex-container section > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
