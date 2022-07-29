@@ -1,0 +1,90 @@
+div.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "content1 content2 sidebar"
+    "footer footer sidebar";
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
+.green .yellow .blue .red {
+  justify-content: center;
+}
+.green {
+  background-color: green;
+  grid-area: header;
+}
+
+.yellow {
+  background-color: yellow;
+  grid-area: content1;
+  display: grid;
+  grid-template-areas:
+    "text text"
+    "number1 number2"
+    "number3 number4 ";
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  align-content: center;
+}
+
+.red {
+  background-color: red;
+  grid-area: content2;
+  display: grid;
+  grid-template-areas:
+    "text text"
+    "number1 number2"
+    "number3 number4 ";
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  align-content: center;
+}
+
+.blue {
+  background-color: blue;
+  grid-area: sidebar;
+}
+
+.orange {
+  background-color: orange;
+  grid-area: footer;
+}
+
+.item1 {
+  background-color: rgba(255, 255, 255, 0.637);
+  grid-area: number1;
+  width: 30%;
+  height: 4rem;
+}
+
+.item2 {
+  background-color: rgba(255, 255, 255, 0.637);
+
+  grid-area: number2;
+  width: 30%;
+  height: 4rem;
+}
+
+.item3 {
+  background-color: rgba(255, 255, 255, 0.637);
+
+  grid-area: number3;
+  width: 30%;
+  height: 4rem;
+}
+
+.item4 {
+  background-color: rgba(255, 255, 255, 0.637);
+
+  grid-area: number4;
+  width: 30%;
+  height: 4rem;
+}
+
+.text {
+  grid-area: text;
+}
