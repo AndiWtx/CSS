@@ -1,0 +1,20 @@
+img {
+  width: 300px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
